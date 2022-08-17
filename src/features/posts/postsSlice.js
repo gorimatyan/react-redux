@@ -36,6 +36,8 @@ const postsSlice = createSlice({
                         date: new Date().toISOString(),
                         userId
                     }
+                    // ↑のpayloadはreducerの引数actionから取り出せる
+                    // action.payloadって感じで。
                 }
             }
         }

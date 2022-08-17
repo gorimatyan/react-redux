@@ -1,3 +1,4 @@
+import { SelectField, Box } from '@chakra-ui/react'
 import React, { useState } from 'react'
 // 8、reducerを扱うのに必要なものをimportする
 import { useSelector, useDispatch } from 'react-redux'
@@ -15,7 +16,7 @@ const Counter = () => {
     }
 
   return (
-        <section>
+        <Box mt="40">
             <p>{count}</p>
             <div>
                 {/* dispatchの引数に呼び出したいactionの名前を書く */}
@@ -33,7 +34,7 @@ const Counter = () => {
                 <button onClick={() => {dispatch(incrementByAmount(addValue))}} >Add Amount</button>
                 <button onClick={resetAll} >Reset</button>
             </div>
-        </section>
+        </Box>
   )
 }
 
