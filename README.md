@@ -1,3 +1,8 @@
+Redux-toolkitの使い方
+1、sliceを作る
+2、storeに登録する
+3、コンポーネントで使う
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
